@@ -2,6 +2,10 @@
   background-image: url(../images/banner-strategy-1024.jpg);
 }
 
+.intro-marketing {
+  background-image: url(../images/banner-marketing-1024.jpg);
+}
+
 .intro-search {
   background-image: url(../images/banner-search-1024.jpg);
 }
@@ -29,6 +33,10 @@
 @media(min-width:1024px) {
   .intro-strategy {
       background-image: url(../images/banner-strategy-1536.jpg);
+  }
+
+  .intro-marketing {
+    background-image: url(../images/banner-marketing-1536.jpg);
   }
 
   .intro-search {
