@@ -1,3 +1,61 @@
+.intro-strategy {
+  background-image: url(../images/banner-strategy-1024.jpg);
+}
+
+.intro-search {
+  background-image: url(../images/banner-search-1024.jpg);
+}
+
+.intro-social {
+  background-image: url(../images/banner-social-1024.jpg);
+}
+
+.intro-web {
+  background-image: url(../images/banner-web-1024.jpg);
+}
+
+.intro-mobile {
+  background-image: url(../images/banner-mobile-1024.jpg);
+}
+
+.intro-training {
+  background-image: url(../images/banner-training-1024.jpg);
+}
+
+.intro-team {
+  background-image: url(../images/banner-team-1024.jpg);
+}
+
+@media(min-width:1024px) {
+  .intro-strategy {
+      background-image: url(../images/banner-strategy-1536.jpg);
+  }
+
+  .intro-search {
+    background-image: url(../images/banner-search-1536.jpg);
+  }
+
+  .intro-social {
+    background-image: url(../images/banner-social-1536.jpg);
+  }
+
+  .intro-web {
+    background-image: url(../images/banner-web-1536.jpg);
+  }
+
+  .intro-mobile {
+    background-image: url(../images/banner-mobile-1536.jpg);
+  }
+
+  .intro-training {
+    background-image: url(../images/banner-training-1536.jpg);
+  }
+
+  .intro-team {
+    background-image: url(../images/banner-team-1536.jpg);
+  }
+}
+
 .hr {
     height: 1px;
     width: 100%;
@@ -10,11 +68,19 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ec642', endColorstr='#008ec642',GradientType=1 ); /* IE6-9 */
 }
 
+.content-section h3, .content-section p {
+  margin: 20px 0;
+}
+
+.content-section h3 {
+  margin-top: 10px;
+}
+
 .copy-bubble {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.copy-bubble h1, .copy-bubble p, .title-bubble h1 {
+.copy-bubble h1, .copy-bubble h3, .copy-bubble p, .title-bubble h1 {
     margin: 10px 0;
 }
 
@@ -24,7 +90,18 @@
 }
 
 .service-item {
-    margin-bottom: 20px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.service-item:hover {
+  color: #8ec642;
+  cursor: pointer;
+}
+
+.service-item .content {
+  margin-top: 60px;
+  margin-left: 25px;
 }
 
 .service-item .avatar {
@@ -67,8 +144,6 @@
     background-position: -385px 0;
 }
 
-
-
 .service-item .title-wrapper {
   position: relative;
   float: left;
@@ -78,7 +153,7 @@
   padding: 7px;
   text-transform: uppercase;
 }
-.service-item .title-wrapper .title {
+.service-item .title-wrapper div {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
