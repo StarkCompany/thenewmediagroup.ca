@@ -23,6 +23,12 @@ $(function() {
             $('html, body').stop().animate({
                 scrollTop: $destination.offset().top + offset
             }, 1500, 'easeInOutExpo');
+            // use pushState if we have it... so the page doesn't blink
+            if (history.pushState) {
+                history.pushState(null, null, $anchor.attr('href'));
+            } else {
+                location.hash = '#myhash';
+            }
             event.preventDefault();
         }
     });
