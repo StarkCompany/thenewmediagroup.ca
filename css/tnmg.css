@@ -124,45 +124,45 @@
 
 @media(min-width: 1024px) {
 
-  #strategy:after {
+  .content-strategy:after {
     content: url(../images/sub-strategy.jpg);
     right: -300px;
   }
 
-  #management:after {
+  .content-management:after {
     content: url(../images/sub-management.jpg);
   }
 
-  #search:after {
+  .content-search:after {
     content: url(../images/sub-search.jpg);
     right: -250px;
     top: 25px;
   }
 
-  #social:after {
+  .content-social:after {
     content: url(../images/sub-social.jpg);
     right: -260px;
   }
 
-  #web:after {
+  .content-web:after {
     content: url(../images/sub-web.jpg);
     right: -50px;
   }
 
-  #mobile:after {
+  .content-mobile:after {
     content: url(../images/sub-mobile.jpg);
   }
 
-  #training:after {
+  .content-training:after {
     content: url(../images/sub-training.jpg);
   }
 
-  #team:after {
+  .content-team:after {
     content: url(../images/sub-team.jpg);
     right: -75px;
   }
 
-  #about:after {
+  .content-about:after {
     content: url(../images/sub-about.jpg);
     top: 50px;
   }
