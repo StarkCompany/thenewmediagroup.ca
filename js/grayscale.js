@@ -15,6 +15,7 @@ $(window).scroll(function() {
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    var originalTitle = document.title;
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         var $destination = $($anchor.attr('href'));
@@ -25,9 +26,11 @@ $(function() {
             }, 1500, 'easeInOutExpo');
             // use pushState if we have it... so the page doesn't blink
             if (history.pushState) {
-                history.pushState(null, null, $anchor.attr('href'));
+                // this is brittle, but allows us to set the title in the history
+                var title = $anchor.find('.title-wrapper > div').html() || '';
+                history.pushState(null, originalTitle.concat(' - ', title.replace('<br>', ' ')), $anchor.attr('href'));
             } else {
-                location.hash = '#myhash';
+                location.hash = $anchor.attr('href');
             }
             event.preventDefault();
         }
