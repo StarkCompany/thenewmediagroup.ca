@@ -117,7 +117,7 @@
 .content-section:after {
   display: block;
   position: absolute;
-  top: 100px;
+  top: 50px;
   z-index: -1;
   right: 0;
 }
@@ -136,7 +136,7 @@
   #search:after {
     content: url(../images/sub-search.jpg);
     right: -250px;
-    top: 50px;
+    top: 25px;
   }
 
   #social:after {
@@ -155,7 +155,6 @@
 
   #training:after {
     content: url(../images/sub-training.jpg);
-    top: 75px;
   }
 
   #team:after {
@@ -280,7 +279,7 @@
   background: url(../images/title-wrapper.png) no-repeat;
 }
 
-.service-item .title-wrapper {
+.title-wrapper {
   text-transform: uppercase;
   padding: 7px;
 }
@@ -289,7 +288,7 @@
   padding-left: 10px;
 }
 
-.title-bubble .title-wrapper h1, .service-item .title-wrapper div {
+.title-wrapper div {
   position: relative;
   margin: 0;
   top: 50%;
