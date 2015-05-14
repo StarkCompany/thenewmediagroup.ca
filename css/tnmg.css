@@ -1,37 +1,75 @@
-.intro-strategy {
-  background-image: url(../images/banner-strategy-1024.jpg);
+  .intro-strategy {
+  background-image: url(../images/banner-strategy-768.jpg);
 }
 
 .intro-management {
-  background-image: url(../images/banner-marketing-1024.jpg);
+  background-image: url(../images/banner-marketing-768.jpg);
 }
 
 .intro-search {
-  background-image: url(../images/banner-search-1024.jpg);
+  background-image: url(../images/banner-search-768.jpg);
 }
 
 .intro-social {
-  background-image: url(../images/banner-social-1024.jpg);
+  background-image: url(../images/banner-social-768.jpg);
 }
 
 .intro-web {
-  background-image: url(../images/banner-web-1024.jpg);
+  background-image: url(../images/banner-web-768.jpg);
 }
 
 .intro-mobile {
-  background-image: url(../images/banner-mobile-1024.jpg);
+  background-image: url(../images/banner-mobile-768.jpg);
 }
 
 .intro-training {
-  background-image: url(../images/banner-training-1024.jpg);
+  background-image: url(../images/banner-training-768.jpg);
 }
 
 .intro-team {
-  background-image: url(../images/banner-team-1024.jpg);
-}
+  background-image: url(../images/banner-team-768.jpg);
+} 
 
 .intro-about {
-  background-image: url(../images/banner-about-1024.jpg);
+  background-image: url(../images/banner-about-768.jpg);
+}
+
+@media(min-width:768px) {
+  .intro-strategy {
+    background-image: url(../images/banner-strategy-1024.jpg);
+  }
+
+  .intro-management {
+    background-image: url(../images/banner-marketing-1024.jpg);
+  }
+
+  .intro-search {
+    background-image: url(../images/banner-search-1024.jpg);
+  }
+
+  .intro-social {
+    background-image: url(../images/banner-social-1024.jpg);
+  }
+
+  .intro-web {
+    background-image: url(../images/banner-web-1024.jpg);
+  }
+
+  .intro-mobile {
+    background-image: url(../images/banner-mobile-1024.jpg);
+  }
+
+  .intro-training {
+    background-image: url(../images/banner-training-1024.jpg);
+  }
+
+  .intro-team {
+    background-image: url(../images/banner-team-1024.jpg);
+  }
+
+  .intro-about {
+    background-image: url(../images/banner-about-1024.jpg);
+  }
 }
 
 @media(min-width:1024px) {
@@ -132,8 +170,6 @@
 
 }
 
-
-
 .hr {
   height: 1px;
   width: 100%;
@@ -155,7 +191,13 @@
 }
 
 .copy-bubble {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media(min-width:768px) {
+  .copy-bubble {
+      background-color: rgba(255, 255, 255, 0.75);
+  }
 }
 
 .copy-bubble h1, .copy-bubble h3, .copy-bubble p, .title-bubble h1 {
@@ -281,8 +323,8 @@
 .quote-title {
   font-style: italic;
 }
-.as-seen-on a {
-  margin-right: 50px;
+.as-seen-on div {
+  margin-bottom: 20px;
 }
 .contact-us a img {
   float: right;
@@ -293,4 +335,7 @@
 }
 .contact-us .hr {
   margin-bottom: 30px;
+}
+.contact-us-phone {
+  margin-bottom: 10px;
 }
