@@ -74,7 +74,7 @@
 
 @media(min-width:1024px) {
   .intro-strategy {
-      background-image: url(../images/banner-strategy-1536.jpg);
+    background-image: url(../images/banner-strategy-1536.jpg);
   }
 
   .intro-management {
