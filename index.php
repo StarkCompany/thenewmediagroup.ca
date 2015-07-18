@@ -449,9 +449,8 @@
                         <div>Calgary: (403) 614-6708</div>
                         <div>Victoria: (250) 216-5039</div>
                     </div>
-                    <div class="col-xs-11 col-sm-5 col-xs-offset-1">
-                        <h5>Email</h5>
-                        <div><a href="mailto:info@thenewmediagroup.ca">info@thenewmediagroup.ca</a></div>
+                    <div class="col-xs-11 col-sm-5">
+                        <?php include('contact-form/index.php'); ?>
                     </div>
             </div>
         </div>

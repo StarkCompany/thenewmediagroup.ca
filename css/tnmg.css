@@ -342,3 +342,6 @@
 .contact-us-phone {
   margin-bottom: 10px;
 }
+.form-horizontal .control-label {
+    text-align: left !important;
+}
