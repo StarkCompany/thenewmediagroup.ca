@@ -1,3 +1,24 @@
+<?php
+
+// grab recaptcha library
+require_once('contact-form/recaptcha/recaptchalib.php');
+// your secret key
+$secret = "6LfQCQoTAAAAAAWAxJSp5yQtUixKx1f23wVg1Gxl";
+
+// empty response
+$response = null;
+
+// check secret key
+$reCaptcha = new ReCaptcha($secret);
+
+// if submitted check response
+if ($_POST["g-recaptcha-response"]) {
+	$response = $reCaptcha->verifyResponse(
+		$_SERVER["REMOTE_ADDR"],
+		$_POST["g-recaptcha-response"]
+	);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +49,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -424,34 +445,38 @@
             <div class="col-xs-11 col-xs-offset-1 as-seen-on">
                 <h4>As seen on:</h4>
                 <div class="col-xs-12 col-sm-2">
-                    <a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img src="images/cnn.jpg" alt="CNN"></a>
+                    <a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img style="margin:0 auto;" src="images/cnn.jpg" alt="CNN"></a>
                 </div>
-                <div class="col-xs-12 col-sm-4">
-                    <a href="https://www.youtube.com/watch?v=VL7NAoh8cjs"><img src="images/entrepreneur.jpg" alt="Entrepreneur"></a>
+                <div class="col-xs-12 col-sm-3">
+                    <a href="https://www.youtube.com/watch?v=VL7NAoh8cjs"><img style="margin:0 auto;" class="img-responsive" src="images/entrepreneur.jpg" alt="Entrepreneur"></a>
                 </div>
-                <div class="col-xs-12 col-sm-4">
-                    <a href="https://www.youtube.com/watch?v=U7BfBCRBCUU"><img src="images/shaw.jpg" alt="Shaw"></a>
+                <div class="col-xs-12 col-sm-3">
+                    <a href="https://www.youtube.com/watch?v=U7BfBCRBCUU"><img style="margin:0 auto;" class="img-responsive" src="images/shaw.jpg" alt="Shaw"></a>
                 </div>
+	            <div class="col-xs-12 col-sm-3">
+		            <a href="http://bit.ly/1f9LEsY"><img style="margin:0 auto;" width=97 height=57 class="img-responsive" src="images/ctv.jpg" alt="CTV"></a>
+	            </div>
             </div>
             <div class="col-xs-11 col-xs-offset-1 contact-us">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-5">
                         <a href="https://www.youtube.com/channel/UCS7tvlvCU3rmRaZU_88NfBg"><img src="images/youtube.jpg" alt="YouTube"></a>
                         <a href="https://www.facebook.com/thenewmediagroup"><img src="images/facebook.jpg" alt="Facebook"></a>
                         <a href="https://twitter.com/new_media_group"><img src="images/twitter.jpg" alt="Twitter"></a>
+                        <a href="https://plus.google.com/+ThenewmediagroupCa/posts"><img src="images/google.jpg" alt="Google"></a>
+	                    <a href="https://www.pinterest.com/newmediagroup/"><img src="images/pinterest.jpg" alt="Pinterest"></a>
                         <h3>Contact Us</h3>
                         <div class="hr"></div>
+	                    <div class="contact-us-phone">
+		                    <h5>Phone/text</h5>
+		                    <div>Calgary: (403) 614-6708</div>
+		                    <div>Victoria: (250) 216-5039</div>
+	                    </div>
                     </div>
+	                <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+		                <?php include('contact-form/index.php'); ?>
+	                </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-11 col-sm-5 col-xs-offset-1 contact-us-phone">
-                        <h5>Phone/text</h5>
-                        <div>Calgary: (403) 614-6708</div>
-                        <div>Victoria: (250) 216-5039</div>
-                    </div>
-                    <div class="col-xs-11 col-sm-5">
-                        <?php include('contact-form/index.php'); ?>
-                    </div>
             </div>
         </div>
     </section>
