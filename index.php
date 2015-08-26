@@ -83,8 +83,14 @@ if ($_POST["g-recaptcha-response"]) {
                         <a class="page-scroll" href="#about">about</a>
                     </li>
                     <li>
+                        <a href="/grow">grow</a>
+                    </li>
+                    <li>
                         <a href="http://blog.thenewmediagroup.ca/blog">blog</a>
                     </li>
+	                <li>
+		                <a class="page-scroll" href="#contact">contact</a>
+	                </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -457,7 +463,7 @@ if ($_POST["g-recaptcha-response"]) {
 		            <a href="http://bit.ly/1f9LEsY"><img style="margin:0 auto;" width=97 height=57 class="img-responsive" src="images/ctv.jpg" alt="CTV"></a>
 	            </div>
             </div>
-            <div class="col-xs-11 col-xs-offset-1 contact-us">
+            <div id="contact" class="col-xs-11 col-xs-offset-1 contact-us">
                 <div class="row">
                     <div class="col-xs-12 col-sm-5">
                         <a href="https://www.youtube.com/channel/UCS7tvlvCU3rmRaZU_88NfBg"><img src="images/youtube.jpg" alt="YouTube"></a>

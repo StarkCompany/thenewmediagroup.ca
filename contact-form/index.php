@@ -7,7 +7,7 @@
  */
 
 $subjectPrefix = '[Web Inquiry Form]';
-$emailTo       = 'brandonellis.nmg@gmail.com';
+$emailTo       = 'laurellindsay@gmail.com';
 if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	$name    = stripslashes( trim( $_POST['form-name'] ) );
 	$email   = stripslashes( trim( $_POST['form-email'] ) );
@@ -45,7 +45,13 @@ if ( ! empty( $emailSent ) ): ?>
 			<div class="alert alert-danger text-center">We're sorry there was an error sending your message. </div>
 		</div>
 	<?php endif; ?>
-	<h3>How Can We Help?</h3>
+	<?php if($_SERVER['REQUEST_URI'] == '/grow/'){
+		echo '<h1>Start now!</h1>';
+		echo '<h3>Invest in your future success workshops start at just $750</h3>';
+	}else{
+		echo '<h3>How Can We Help?</h3>';
+	}?>
+
 	<div class="hr"></div>
 	<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
 		<div class="form-group">
