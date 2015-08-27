@@ -1,7 +1,12 @@
 .intro-strategy {
   background-image: url(../images/banner-strategy-768.jpg);
 }
-
+.intro-adapt {
+  background-image: url(../images/banner-consumer-768.jpg);
+}
+.intro-competitive {
+  background-image: url(../images/banner-help-768.jpg);
+}
 .intro-management {
   background-image: url(../images/banner-marketing-768.jpg);
 }
@@ -37,6 +42,12 @@
 @media(min-width:768px) {
   .intro-strategy {
     background-image: url(../images/banner-strategy-1024.jpg);
+  }
+  .intro-competitive {
+    background-image: url(../images/banner-help-1024.jpg);
+  }
+  .intro-adapt {
+    background-image: url(../images/banner-consumer-1024.jpg);
   }
 
   .intro-management {
@@ -76,7 +87,12 @@
   .intro-strategy {
     background-image: url(../images/banner-strategy-1536.jpg);
   }
-
+  .intro-adapt {
+    background-image: url(../images/banner-consumer-1536.jpg);
+  }
+  .intro-competitive {
+    background-image: url(../images/banner-help-1536.jpg);
+  }
   .intro-management {
     background-image: url(../images/banner-marketing-1536.jpg);
   }

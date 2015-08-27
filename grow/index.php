@@ -99,7 +99,7 @@ if ($_POST["g-recaptcha-response"]) {
 </nav>
 
 <!-- Intro Header -->
-<header class="intro">
+<header class="grow">
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
@@ -131,7 +131,7 @@ if ($_POST["g-recaptcha-response"]) {
 	</div>
 </section>
 
-<div class="intro intro-adapt" id="adapt">
+<div class="grow intro-adapt" id="adapt">
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
