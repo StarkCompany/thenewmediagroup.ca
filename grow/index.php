@@ -218,6 +218,26 @@ if ($_POST["g-recaptcha-response"]) {
 		</div>
 	</div>
 </div>
+<section class="section-grow">
+	<div class="container">
+		<div class="row ">
+			<div class="col-xs-12 logo">
+				<div class="col-xs-12 col-sm-3">
+					<img style="margin:0px auto;" src="../images/RRU_Logo.png" alt="RRU"></a>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<img style="margin:40px auto;" class="img-responsive" src="../images/Hand_Logo.png" alt="Hand">
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<img style="margin:40px auto;" class="img-responsive" src="../images/Sidney_Logo.png" alt="Sidney">
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<img style="margin:40px auto;" class="img-responsive" src="../images/Social_Logo.png" alt="Social"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <!--
 <section class="container content-section content-search" data-scroll-offset="-75">
@@ -427,7 +447,7 @@ if ($_POST["g-recaptcha-response"]) {
 				</div>
 			</div>
 		</div>-->
-		<div class="col-xs-11 col-xs-offset-1 as-seen-on">
+		<div class="section-grow col-xs-11 col-xs-offset-1 as-seen-on">
 			<h4>As seen on:</h4>
 			<div class="col-xs-12 col-sm-2">
 				<a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img style="margin:0 auto;" src="../images/cnn.jpg" alt="CNN"></a>
