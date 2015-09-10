@@ -149,7 +149,65 @@ if ($_POST["g-recaptcha-response"]) {
 		<div class="col-xs-11 col-sm-12 text-center">
 			<h1>Customers decide to buy from you <br><em>well</em> before you hear from them</h1>
 			<div class="hr-left"></div><div class="hr-right"></div>
-			<p>CIRCLES</p>
+			<div id="circle-wrapper">
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber statNumberSmall">84%</p>
+							<p class="statText">of Canadians are connected to the internet BDC 2013</p>
+						</div>
+					</div>
+				</div>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber statNumberSmall">2.6</p>
+							<p class="statText">Internet connected devices is the average per household BDC 2013</p>
+						</div>
+					</div>
+				</div>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber statNumberSmall">2.5</p>
+							<p class="statText">Hours is the average time Canadians spend online a day ComScore, 2014</p>
+						</div>
+					</div>
+				</div>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber statNumberSmall">90%</p>
+							<p class="statText">of Canadian consumers use their smartphone to conduct pre-shopping research BDC 2013)</p>
+						</div>
+					</div>
+				</div>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber statNumberSmall">20</p>
+							<p class="statText">20 hours is the average time Canadians 50 and older are spending online each month.
+								(Comscore, 2014)</p>
+						</div>
+					</div>
+				</div>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber statNumberSmall">70%</p>
+							<p class="statText">
+								Of Canadians online trust consumer reviews.
+								(BDC, 2013) </p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

@@ -240,7 +240,7 @@
   }
 }
 
-.copy-bubble h1, .copy-bubble h3, .copy-bubble p, .section-grow h1, .section-grow h2, .section-grow p {
+.copy-bubble h1, .copy-bubble h3, .copy-bubble p, .section-grow h1, .section-grow h2{
     margin: 10px 0;
 }
 
@@ -416,4 +416,80 @@
 .saying h1{
   color:white;
   font-size:70px;
+}
+
+/** Circles **/
+
+.statsWrap {
+  width: 130px;
+  margin: 50px 10px 120px 10px;
+  float: left;
+}
+
+.stats {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-user-select: none;
+}
+
+.statDummy {
+  margin-top: 100%;
+}
+
+.statInfo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #8ec642;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 60px;
+  transition: all 0.5s ease-in-out 0s;
+  padding-top: 24px;
+  margin-bottom: 0;
+  color:white;
+}
+
+.statNumberSmall {
+  font-size: 36px;
+  transition: all 0.5s ease-in-out 0s;
+  padding-top: 32px;
+  margin-bottom: 0;
+}
+
+.statText {
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 0;
+  transform: scale(0);
+  padding: 0;
+  margin-top: 42px;
+  font-size:18px;
+  width:300px;
+  color: #8ec642;
+}
+
+.stats:hover {
+  transform: scale(1.4);
+  z-index: 10;
+}
+.stats:hover .statNumber {
+  transform: scale(1.2);
+}
+
+.stats:hover .statText {
+  transform: scale(.6);
+  opacity: 1;
+  position: relative;
+  right: 85px;
+}
+#circle-wrapper{
+  margin:0 auto;
+  width:80%;
 }
