@@ -82,9 +82,9 @@ if ($_POST["g-recaptcha-response"]) {
                     <li>
                         <a class="page-scroll" href="#about">about</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="/grow">grow</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="http://blog.thenewmediagroup.ca/blog">blog</a>
                     </li>

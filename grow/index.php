@@ -82,9 +82,9 @@ if ($_POST["g-recaptcha-response"]) {
 				<li>
 					<a class="page-scroll" href="/#about">about</a>
 				</li>
-				<li>
+				<!--<li>
 					<a href="/grow">grow</a>
-				</li>
+				</li>-->
 				<li>
 					<a href="http://blog.thenewmediagroup.ca/blog">blog</a>
 				</li>
@@ -103,7 +103,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble col-xs-offset-1 col-xs-offset-1">
 					<h1>Frustrated?</h1>
 					<div class="hr"></div>
 					<p class="intro-text">It's time to change you approach to web marketing</p>
@@ -135,7 +135,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble col-xs-offset-1">
 					<h1>Adapt to consumer <br> behaviour.</h1>
 					<div class="hr"></div>
 					<p class="intro-text">and watch your business blast off</p>
@@ -216,7 +216,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble col-xs-offset-1">
 					<h1>How we can help.</h1>
 					<div class="hr"></div>
 					<p class="intro-text">We empower entrepreneurs<br> to effectively market their<br> businesses online.</p>
@@ -313,7 +313,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
 					<h3>Be a part of the<br>conversation</h3>
 					<div class="hr"></div>
 					<p class="intro-text">Your customers are social creatures. We make sure you speak their language.</p>
@@ -343,7 +343,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
 					<h3>Beef up your business<br>with a fresh website</h3>
 					<div class="hr"></div>
 					<p class="intro-text">Spinach won't lift your bottom line. A new website will.</p>
@@ -372,7 +372,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
 					<h3>Keep up</h3>
 					<div class="hr"></div>
 					<p class="intro-text">Your customers are on the go, and mobile marketing ensures you don't get left behind.</p>
@@ -401,7 +401,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
 					<h3>Educated guesses are<br>much better than guesses</h3>
 					<div class="hr"></div>
 					<p class="intro-text">We'll help you with your homework so you'll always have the answers.</p>
@@ -430,7 +430,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
 					<h3>Not your average<br>full service agency</h3>
 					<div class="hr"></div>
 					<p class="intro-text">Our team of marketing superheroes will lift your business to new heights.</p>
@@ -459,7 +459,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble">
+				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
 					<h3>The full umbrella of web services since 2006</h3>
 					<div class="hr"></div>
 					<p class="intro-text">We harness the power of communication to strengthen and grow business.</p>
