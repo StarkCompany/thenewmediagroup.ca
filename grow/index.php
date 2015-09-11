@@ -281,17 +281,26 @@ if ($_POST["g-recaptcha-response"]) {
 		<div class="row ">
 			<div class="col-xs-12 logo">
 				<div class="col-xs-12 col-sm-3">
-					<img style="margin:0px auto;" src="../images/RRU_Logo.png" alt="RRU"></a>
+					<img id="rru" style="margin:0px auto;" class="img-responsive" src="../images/RRU_Logo.png" alt="RRU"></a>
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<img style="margin:40px auto;" class="img-responsive" src="../images/Hand_Logo.png" alt="Hand">
+					<img id="uw" style="margin:40px auto;" class="img-responsive" src="../images/Hand_Logo.png" alt="Hand">
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<img style="margin:40px auto;" class="img-responsive" src="../images/Sidney_Logo.png" alt="Sidney">
+					<img id="sidney" style="margin:40px auto;" class="img-responsive" src="../images/Sidney_Logo.png" alt="Sidney">
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<img style="margin:40px auto;" class="img-responsive" src="../images/Social_Logo.png" alt="Social"></a>
+					<img id="social" style="margin:40px auto;" class="img-responsive" src="../images/Social_Logo.png" alt="Social"></a>
 				</div>
+
+				<img id="smc-quote" class="img-responsive" style="margin:0px auto;" src="../images/smc-quote.png" alt="Sidney Quote">
+
+				<img id="sidney-quote" class="img-responsive" style="margin:0px auto;" src="../images/sbia-quote.png" alt="Sidney Quote">
+				<img id="uw-quote" class="img-responsive" style="margin:0px auto;" src="../images/united-way-quote.png" alt="United Way Quote">
+				<img id="rru-quote" class="img-responsive" style="margin:0px auto;" src="../images/rru-quote.png" alt="RRU Quote">
+
+
+
 			</div>
 		</div>
 	</div>
@@ -562,6 +571,9 @@ if ($_POST["g-recaptcha-response"]) {
 
 <!-- Custom Theme JavaScript -->
 <script src="../js/grayscale.js"></script>
+
+<!-- NMG Custom JavaScript -->
+<script src="../js/nmg.js"></script>
 
 </body>
 

@@ -86,4 +86,4 @@ if ( ! empty( $emailSent ) ): ?>
 		</div>
 	</form>
 <?php endif; ?>
-<script type="text/javascript" src="js/contact-form.js"></script>
+<script type="text/javascript" src="../js/contact-form.js"></script>
