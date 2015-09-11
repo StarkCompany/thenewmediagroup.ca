@@ -323,16 +323,16 @@ if ($_POST["g-recaptcha-response"]) {
 		</div>
 	</div>
 </section>
-<div class="laurel-scroller">
-	<div id="my-thumbs-list" class="mThumbnailScroller" data-mts-axis="x">
+<div id="laurel-scroller" class="mThumbnailScroller scroller-ready" data-mts-axis="x">
 		<ul>
-			<li><a href="image-1-link"><img src="/path/to/image-1-file" /></a></li>
-			<li><a href="image-2-link"><img src="/path/to/image-2-file" /></a></li>
-			<li><a href="image-3-link"><img src="/path/to/image-3-file" /></a></li>
-			<li><a href="image-4-link"><img src="/path/to/image-4-file" /></a></li>
+			<li><a href="image-1-link"><img src="/images/scroller/1.jpg" /></a></li>
+			<li><a href="image-2-link"><img src="/images/scroller/2.png" /></a></li>
+			<li><a href="image-3-link"><img src="/images/scroller/3.jpg" /></a></li>
+			<li><a href="image-4-link"><img src="/images/scroller/4.jpg" /></a></li>
+			<li><a href="image-5-link"><img src="/images/scroller/5.jpeg" /></a></li>
+			<li><a href="image-6-link"><img src="/images/scroller/6.jpg" /></a></li>
 			<!-- and so on... -->
 		</ul>
-	</div>
 </div>
 
 <!--
