@@ -42,6 +42,7 @@ if ($_POST["g-recaptcha-response"]) {
 	<!-- Custom CSS -->
 	<link href="../css/grayscale.css" rel="stylesheet">
 	<link href="../css/tnmg.css" rel="stylesheet">
+	<link href="../css/jquery.mThumbnailScroller.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -144,6 +145,8 @@ if ($_POST["g-recaptcha-response"]) {
 		</div>
 	</div>
 </div>
+
+<!--Stats Section-->
 <section class="container section-grow">
 	<div class="row adapt-section">
 		<div class="col-xs-11 col-sm-12 text-center">
@@ -226,6 +229,7 @@ if ($_POST["g-recaptcha-response"]) {
 	</div>
 </div>
 
+<!-- Strategy Section -->
 <section class="container section-grow">
 	<div class="row strategy-section">
 		<div class="col-xs-11 col-sm-7">
@@ -243,6 +247,7 @@ if ($_POST["g-recaptcha-response"]) {
 		</div>
 </section>
 
+<!--Workshops Section -->
 <section class="border-top workshops">
 	<div class="container">
 		<div class="row section-grow">
@@ -276,6 +281,8 @@ if ($_POST["g-recaptcha-response"]) {
 		</div>
 	</div>
 </div>
+
+<!--Quotes Section-->
 <section class="section-grow">
 	<div class="container">
 		<div class="row ">
@@ -305,6 +312,28 @@ if ($_POST["g-recaptcha-response"]) {
 		</div>
 	</div>
 </section>
+<section class="container section-grow">
+	<div class="row">
+		<div class="col-xs-6">
+			<h1>Why Laurel?</h1>
+			<div class="hr"></div>
+		</div>
+		<div class="col-xs-12">
+			<p>Each presentation is designed to ensure your attendees leave with everything they need to start effective web marketing, right away.</p>
+		</div>
+	</div>
+</section>
+<div class="laurel-scroller">
+	<div id="my-thumbs-list" class="mThumbnailScroller" data-mts-axis="x">
+		<ul>
+			<li><a href="image-1-link"><img src="/path/to/image-1-file" /></a></li>
+			<li><a href="image-2-link"><img src="/path/to/image-2-file" /></a></li>
+			<li><a href="image-3-link"><img src="/path/to/image-3-file" /></a></li>
+			<li><a href="image-4-link"><img src="/path/to/image-4-file" /></a></li>
+			<!-- and so on... -->
+		</ul>
+	</div>
+</div>
 
 <!--
 <section class="container content-section content-search" data-scroll-offset="-75">
@@ -574,6 +603,9 @@ if ($_POST["g-recaptcha-response"]) {
 
 <!-- NMG Custom JavaScript -->
 <script src="../js/nmg.js"></script>
+
+<!-- Scroller -->
+<script src="../js/jquery.mThumbnailScroller.min.js"></script>
 
 </body>
 
