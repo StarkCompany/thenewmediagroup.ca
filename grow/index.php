@@ -28,11 +28,11 @@ if ($_POST["g-recaptcha-response"]) {
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Since 06' we've helped people just like you leverage the web to boost their business. Try before you buy- get your free web assessment & learn what works.">
-	<meta name="keywords" content="web assessment, web marketing, web site design" />
-	<meta property="og:title" content="The New Media Group" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://www.thenewmediagroup.ca" />
-	<meta property="og:image" content="http://www.thenewmediagroup.ca/images/tnmg-logo.jpg" />
+	<meta name="keywords" content="web assessment, web marketing, web site design"/>
+	<meta property="og:title" content="The New Media Group"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://www.thenewmediagroup.ca"/>
+	<meta property="og:image" content="http://www.thenewmediagroup.ca/images/tnmg-logo.jpg"/>
 
 	<title>Your local web marketing superheroes</title>
 
@@ -106,6 +106,7 @@ if ($_POST["g-recaptcha-response"]) {
 			<div class="row">
 				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble col-xs-offset-1 col-xs-offset-1">
 					<h1>Frustrated?</h1>
+
 					<div class="hr"></div>
 					<p class="intro-text">It's time to change you approach to web marketing</p>
 				</div>
@@ -119,15 +120,18 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="row">
 		<div class="col-sm-6 col-xs-12">
 			<h1>Change</h1>
+
 			<div class="hr"></div>
-			<p>If any of the following apply, it's time to change your approach to how you're marketing your business. Doctor orders.</p>
+			<p>If any of the following apply, it's time to change your approach to how you're marketing your business.
+				Doctor orders.</p>
 			<ul class="change-list">
 				<li> You're worried about staying competitive
 				<li> You're feeling frustrated with results
 				<li> You're unsure of how to improve your effectiveness
 			</ul>
-			<p> You can stop worrying right now, you're in good hands. We're here to show you exactly how to benefit from free online tools
-			to effectively market your businesses.</p>
+			<p> You can stop worrying right now, you're in good hands. We're here to show you exactly how to benefit
+				from free online tools
+				to effectively market your businesses.</p>
 		</div>
 	</div>
 </section>
@@ -138,6 +142,7 @@ if ($_POST["g-recaptcha-response"]) {
 			<div class="row">
 				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble col-xs-offset-1">
 					<h1>Adapt to consumer <br> behaviour.</h1>
+
 					<div class="hr"></div>
 					<p class="intro-text">and watch your business blast off</p>
 				</div>
@@ -151,13 +156,16 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="row adapt-section">
 		<div class="col-xs-11 col-sm-12 text-center">
 			<h1>Customers decide to buy from you <br><em>well</em> before you hear from them</h1>
-			<div class="hr-left"></div><div class="hr-right"></div>
+
+			<div class="hr-left"></div>
+			<div class="hr-right"></div>
 			<div id="circle-wrapper">
 				<div class="statsWrap">
 					<div class="stats">
 						<div class="statDummy"></div>
 						<div class="statInfo">
 							<p class="statNumber statNumberSmall">84%</p>
+
 							<p class="statText">of Canadians are connected to the internet BDC 2013</p>
 						</div>
 					</div>
@@ -167,6 +175,7 @@ if ($_POST["g-recaptcha-response"]) {
 						<div class="statDummy"></div>
 						<div class="statInfo">
 							<p class="statNumber statNumberSmall">2.6</p>
+
 							<p class="statText">Internet connected devices is the average per household BDC 2013</p>
 						</div>
 					</div>
@@ -176,7 +185,9 @@ if ($_POST["g-recaptcha-response"]) {
 						<div class="statDummy"></div>
 						<div class="statInfo">
 							<p class="statNumber statNumberSmall">2.5</p>
-							<p class="statText">Hours is the average time Canadians spend online a day ComScore, 2014</p>
+
+							<p class="statText">Hours is the average time Canadians spend online a day ComScore,
+								2014</p>
 						</div>
 					</div>
 				</div>
@@ -185,7 +196,9 @@ if ($_POST["g-recaptcha-response"]) {
 						<div class="statDummy"></div>
 						<div class="statInfo">
 							<p class="statNumber statNumberSmall">90%</p>
-							<p class="statText">of Canadian consumers use their smartphone to conduct pre-shopping research BDC 2013)</p>
+
+							<p class="statText">of Canadian consumers use their smartphone to conduct pre-shopping
+								research BDC 2013)</p>
 						</div>
 					</div>
 				</div>
@@ -194,7 +207,9 @@ if ($_POST["g-recaptcha-response"]) {
 						<div class="statDummy"></div>
 						<div class="statInfo">
 							<p class="statNumber statNumberSmall">20</p>
-							<p class="statText">20 hours is the average time Canadians 50 and older are spending online each month.
+
+							<p class="statText">20 hours is the average time Canadians 50 and older are spending online
+								each month.
 								(Comscore, 2014)</p>
 						</div>
 					</div>
@@ -204,6 +219,7 @@ if ($_POST["g-recaptcha-response"]) {
 						<div class="statDummy"></div>
 						<div class="statInfo">
 							<p class="statNumber statNumberSmall">70%</p>
+
 							<p class="statText">
 								Of Canadians online trust consumer reviews.
 								(BDC, 2013) </p>
@@ -221,8 +237,10 @@ if ($_POST["g-recaptcha-response"]) {
 			<div class="row">
 				<div class="col-xs-11 col-sm-6 col-md-4 copy-bubble col-xs-offset-1">
 					<h1>How we can help.</h1>
+
 					<div class="hr"></div>
-					<p class="intro-text">We empower entrepreneurs<br> to effectively market their<br> businesses online.</p>
+					<p class="intro-text">We empower entrepreneurs<br> to effectively market their<br> businesses
+						online.</p>
 				</div>
 			</div>
 		</div>
@@ -234,16 +252,25 @@ if ($_POST["g-recaptcha-response"]) {
 	<div class="row strategy-section">
 		<div class="col-xs-11 col-sm-7">
 			<h1>Keeping you competitive</h1>
+
 			<div class="hr"></div>
 		</div>
 		<div class="col-sm-6">
-				<p>Many business people simple aren't taking advantage of the tremendous opportunities free web marketing tools offer to attract new businesses.</p>
-				<p>Whether the resistance stems from a lack of understanding or a lack of confidence, the result are the same.</p>
-				<p>Businesses that have not adapted to the change in consumer behaviour and embraced the internet for their marketing will fail to remain competitive.</p>
+			<p>Many business people simple aren't taking advantage of the tremendous opportunities free web marketing
+				tools offer to attract new businesses.</p>
+
+			<p>Whether the resistance stems from a lack of understanding or a lack of confidence, the result are the
+				same.</p>
+
+			<p>Businesses that have not adapted to the change in consumer behaviour and embraced the internet for their
+				marketing will fail to remain competitive.</p>
 		</div>
 		<div class="col-sm-6">
-				<p>We help by conducting entertaining, engaging, and informative workshops that demystify internet marketing.</p>
-				<p>Attendees are empowered by the practical tools and ongoing support they receive, allowing them to succeed in today's economy.</p>
+			<p>We help by conducting entertaining, engaging, and informative workshops that demystify internet
+				marketing.</p>
+
+			<p>Attendees are empowered by the practical tools and ongoing support they receive, allowing them to succeed
+				in today's economy.</p>
 		</div>
 </section>
 
@@ -253,18 +280,27 @@ if ($_POST["g-recaptcha-response"]) {
 		<div class="row section-grow">
 			<div class="col-sm-4">
 				<h1 class="text-center">Workshops</h1>
-				<div class="hr-left"></div><div class="hr-right"></div>
-				<p> Attendees learn through real-life case<br> studies while practicing learned <br>techniques in-the-moment on their<br> devices. Ideal for individuals,<br> companies and groups.</p>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p> Attendees learn through real-life case<br> studies while practicing learned <br>techniques
+					in-the-moment on their<br> devices. Ideal for individuals,<br> companies and groups.</p>
 			</div>
 			<div class="col-sm-4">
 				<h1 class="text-center">Speaking</h1>
-				<div class="hr-left"></div><div class="hr-right"></div>
-				<p>Informative, Engaging & Entertaining <br> presentations that focus on the<br> practical & tactical aspects of web<br> marketing. Ideal for conferences,<br> business associations and companies.</p>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Informative, Engaging & Entertaining <br> presentations that focus on the<br> practical & tactical
+					aspects of web<br> marketing. Ideal for conferences,<br> business associations and companies.</p>
 			</div>
 			<div class="col-sm-4">
 				<h1 class="text-center">Training</h1>
-				<div class="hr-left"></div><div class="hr-right"></div>
-				<p>Learn by doing while you're supported <br>step-by-step. Ideal for individuals,<br> companies and groups.</p>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Learn by doing while you're supported <br>step-by-step. Ideal for individuals,<br> companies and
+					groups.</p>
 			</div>
 		</div>
 	</div>
@@ -307,279 +343,174 @@ if ($_POST["g-recaptcha-response"]) {
 				<img id="rru-quote" class="img-responsive" style="margin:0px auto;" src="../images/rru-quote.png" alt="RRU Quote">
 
 
-
 			</div>
 		</div>
 	</div>
 </section>
-<section class="container section-grow">
+<section class="container section-grow" style="margin-bottom:0px;">
 	<div class="row">
 		<div class="col-xs-6">
 			<h1>Why Laurel?</h1>
+
 			<div class="hr"></div>
 		</div>
 		<div class="col-xs-12">
-			<p>Each presentation is designed to ensure your attendees leave with everything they need to start effective web marketing, right away.</p>
+			<p>Each presentation is designed to ensure your attendees leave with everything they need to start effective
+				web marketing, right away.</p>
 		</div>
 	</div>
 </section>
 <div id="laurel-scroller" class="mThumbnailScroller scroller-ready" data-mts-axis="x">
-		<ul>
-			<li><a href="image-1-link"><img src="/images/scroller/1.jpg" /></a></li>
-			<li><a href="image-2-link"><img src="/images/scroller/2.png" /></a></li>
-			<li><a href="image-3-link"><img src="/images/scroller/3.jpg" /></a></li>
-			<li><a href="image-4-link"><img src="/images/scroller/4.jpg" /></a></li>
-			<li><a href="image-5-link"><img src="/images/scroller/5.jpeg" /></a></li>
-			<li><a href="image-6-link"><img src="/images/scroller/6.jpg" /></a></li>
-			<!-- and so on... -->
-		</ul>
+	<ul>
+		<li><a href="image-1-link"><img src="/images/scroller/1.jpg"/></a></li>
+		<li><a href="image-2-link"><img src="/images/scroller/2.png"/></a></li>
+		<li><a href="image-3-link"><img src="/images/scroller/3.jpg"/></a></li>
+		<li><a href="image-4-link"><img src="/images/scroller/4.jpg"/></a></li>
+		<li><a href="image-5-link"><img src="/images/scroller/5.jpeg"/></a></li>
+		<li><a href="image-6-link"><img src="/images/scroller/6.jpg"/></a></li>
+		<!-- and so on... -->
+	</ul>
 </div>
+<!--Why Laurel Section -->
+<section class="section-grow text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h1 class="text-center">Expert</h1>
 
-<!--
-<section class="container content-section content-search" data-scroll-offset="-75">
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Benefit from over 10 years <br>of hands-on, real world<br> business experience marketing<br> hundreds
+					of businesses</p>
+			</div>
+			<div class="col-sm-4">
+				<h1 class="text-center">Engaging</h1>
 
-	<div class="row search-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>You need to be found where your customers are searching for you.</h3>
-			<div class="hr"></div>
-			<p>Search marketing is a combination of exposure in the right places and the messaging that creates and maintains credibility in the eyes of your prospects.  We've mastered the art of organic on-site and off-site search engine optimization so you can attract and engage your ideal customers. We cover all aspects of localized search and ad creation, monitoring and optimization.</p>
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Attendees learn by doing, practicing<br> what they've learned on the spot.</p>
+			</div>
+			<div class="col-sm-4">
+				<h1 class="text-center">Practical</h1>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Each concept is simplified into<br> digestibel, easy to understand<br> segments and practical,
+					day-to-day<br>action steps.</p>
+			</div>
+			<div class="col-sm-4">
+				<h1 class="text-center">Relevant</h1>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Presentations feature up to date <br>information and materials that are <br>relevant to your
+					audience's <br>experience levels - speaking directly <br>to their needs.</p>
+			</div>
+			<div class="col-sm-4">
+				<h1 class="text-center">Supportive</h1>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Attendees are given the space to have<br> their questions answered at the <br>conclusion of the
+					presentation<br> segments of the workshop.</p>
+
+				<p>Take-home and ongoing resources are<br>also provided, ensuring your<br>participants are fully
+					supported while<br>implementing what they've learned.</p>
+			</div>
+			<div class="col-sm-4">
+				<h1 class="text-center">Practical</h1>
+
+				<div class="hr-left"></div>
+				<div class="hr-right"></div>
+				<p>Each concept is simplified into<br> digestibel, easy to understand<br> segments and practical,
+					day-to-day<br>action steps.</p>
+			</div>
 		</div>
 	</div>
 </section>
-
-<div class="intro intro-social" id="social">
-	<div class="intro-body">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
-					<h3>Be a part of the<br>conversation</h3>
-					<div class="hr"></div>
-					<p class="intro-text">Your customers are social creatures. We make sure you speak their language.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="container content-section content-social" data-scroll-offset="-75">
-	<div class="row">
-		<div class="col-xs-7 col-sm-2 col-xs-offset-1 title-bubble">
-			<div class="avatar avatar-social-marketing"></div>
-			<div class="title-wrapper"><div>Social<br>Marketing</div></div>
-		</div>
-	</div>
-	<div class="row social-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>Consumers look to social media and online communities to make nearly every purchase decision today.</h3>
-			<div class="hr"></div>
-			<p>Effective social media marketing engages customers in a conversation, and leverages the enormous power of online recommendation and referral. Success of both new and repeat business is enhanced significantly by “raving fans”, and your business will have them if you master the tone, consistency and friendly engagement style that a superior social media marketing campaign provides.</p>
-		</div>
-		<div class="col-xs-3 sub-bg sub-bg-social"></div>
+<!--Stats Section-->
+<section class="container section-grow" style="margin-bottom:0px;">
+	<div class="bg-green">
+		<h1>Topics</h1>
 	</div>
 </section>
+<section class="bg-green">
+	<div class="container">
+		<div class="row adapt-section">
+			<div id="circle-wrapper">
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber">17</p>
 
-<div class="intro intro-web" id="web">
-	<div class="intro-body">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
-					<h3>Beef up your business<br>with a fresh website</h3>
-					<div class="hr"></div>
-					<p class="intro-text">Spinach won't lift your bottom line. A new website will.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="container content-section content-web" data-scroll-offset="-75">
-	<div class="row">
-		<div class="col-xs-7 col-sm-2 col-xs-offset-1 title-bubble">
-			<div class="avatar avatar-web-development"></div>
-			<div class="title-wrapper"><div>Web<br>Development</div></div>
-		</div>
-	</div>
-	<div class="row web-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>A properly implemented website is your best performing salesperson.</h3>
-			<div class="hr"></div>
-			<p>A website makes a huge difference in how you are perceived, and that perception is typically generated in under three seconds. Your website tells your prospective customer how professional you are, how much you understand their needs, and even how smart you are. We provide professionally written, search engine optimized sites that tell your customer they've found what they're looking for.</p>
-		</div>
-	</div>
-</section>
-
-<div class="intro intro-mobile" id="mobile">
-	<div class="intro-body">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
-					<h3>Keep up</h3>
-					<div class="hr"></div>
-					<p class="intro-text">Your customers are on the go, and mobile marketing ensures you don't get left behind.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="container content-section content-mobile" data-scroll-offset="-75">
-	<div class="row">
-		<div class="col-xs-7 col-sm-2 col-xs-offset-1 title-bubble">
-			<div class="avatar avatar-mobile-marketing"></div>
-			<div class="title-wrapper"><div>Mobile<br>Marketing</div></div>
-		</div>
-	</div>
-	<div class="row mobile-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>No other channel offers you a better relationship with your customers than the smartphone in their hands.</h3>
-			<div class="hr"></div>
-			<p>The numbers are staggering: studies show we look at our phones over 100 times each day! Almost all text messages get opened, and 91% of them are read within three minutes of being received. Email can't do that. Talk with us about how a mobile marketing campaign fits with your business, and how the unmatched intimacy this channel provides can keep you in a special place -- top of mind.</p>
-		</div>
-	</div>
-</section>
-
-<div class="intro intro-training" id="training">
-	<div class="intro-body">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
-					<h3>Educated guesses are<br>much better than guesses</h3>
-					<div class="hr"></div>
-					<p class="intro-text">We'll help you with your homework so you'll always have the answers.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="container content-section content-training" data-scroll-offset="-75">
-	<div class="row">
-		<div class="col-xs-7 col-sm-2 col-xs-offset-1 title-bubble">
-			<div class="avatar avatar-training"></div>
-			<div class="title-wrapper"><div>Training</div></div>
-		</div>
-	</div>
-	<div class="row training-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>Once you get the hang of it, you may want to do your own online marketing. We'll show you how.</h3>
-			<div class="hr"></div>
-			<p>If you want a full service marketing team for the foreseeable future, we are here for you. However, if you want to learn the skills you'll need to monitor and manage your online presence, we'll share the knowledge with you. Our experts can help you learn how to keep things running smoothly by showing you the tricks of the trade and the tried-and-true methods of ongoing professional marketing execution.</p>
-		</div>
-	</div>
-</section>
-
-<div class="intro intro-team" id="team">
-	<div class="intro-body">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
-					<h3>Not your average<br>full service agency</h3>
-					<div class="hr"></div>
-					<p class="intro-text">Our team of marketing superheroes will lift your business to new heights.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="container content-section content-team" data-scroll-offset="-75">
-	<div class="row">
-		<div class="col-xs-7 col-sm-2 col-xs-offset-1 title-bubble">
-			<div class="avatar avatar-the-team"></div>
-			<div class="title-wrapper"><div>The Team</div></div>
-		</div>
-	</div>
-	<div class="row team-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>We are a team of veteran leaders, online strategists, marketers, designers and technologists.</h3>
-			<div class="hr"></div>
-			<p>No-one is good at everything. The online world has some pretty complex nooks and crannies, too. We have been working in these places and learning the ropes for over 10 years, so now we have all the pieces in place to deliver expertly-informed, best-of-breed strategies, designs, campaigns and site, mobile and social programs for businesses of any size, in any market. </p>
-		</div>
-	</div>
-</section>
-
-<div class="intro intro-about" id="about">
-	<div class="intro-body">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-11 col-sm-6 col-md-4 col-xs-offset-1 copy-bubble col-xs-offset-1">
-					<h3>The full umbrella of web services since 2006</h3>
-					<div class="hr"></div>
-					<p class="intro-text">We harness the power of communication to strengthen and grow business.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="container content-section content-about" data-scroll-offset="-75">
-	<div class="row">
-		<div class="col-xs-7 col-sm-2 col-xs-offset-1 title-bubble">
-			<div class="avatar avatar-about"></div>
-			<div class="title-wrapper"><div>About Us</div></div>
-		</div>
-	</div>
-	<div class="row about-section">
-		<div class="col-xs-11 col-md-8 col-xs-offset-1">
-			<h3>We've helped hundreds of businesses leverage the power of the web to boost their sales.</h3>
-			<div class="hr"></div>
-			<p>But don't just take our word for it. Click any of the links below to hear it from our clients.</p>
-			<ul>
-				<li><a href="http://thenewmediagroup.ca/internet-marketing-service-results-case-studies-calgary/">Case Studies</a></li>
-				<li><a href="https://ca.linkedin.com/in/laurellindsay">LinkedIn</a></li>
-				<li><a href="/internet-marketing-service-results-calgary/">See All Recommendations</a></li>
-			</ul>
-		</div>
-		<div class="col-xs-12 quotes">
-			<div class="row">
-				<div class="col-xs-11 col-sm-5 col-md-3 col-xs-offset-1 quote">
-					<h4 class="quote-text">The impact on sales has been huge!</h4>
-					<div class="quote-name">Jeff Nechka</div>
-					<div class="quote-title">Owner/Gemologist Premier Gems Ltd.</div>
-				</div>
-				<div class="col-xs-11 col-sm-5 col-md-3 col-xs-offset-1 col-md-offset-0 quote">
-					<h4>They've increased our sales drastically</h4>
-					<div class="quote-name">Henry de Kok</div>
-					<div class="quote-title">Co-Owner Premier Custom Homes &amp; Premier Woodworking</div>
-				</div>
-				<div class="col-xs-11 col-sm-5 col-sm-offset-1 col-md-3 col-xs-offset-1 col-md-offset-0 quote">
-					<h4>It was surprising how fast we got the exposure we needed</h4>
-					<div class="quote-name">Mike Gratton</div>
-					<div class="quote-title">Owner B and F Auto Electric</div>
-				</div>
-			</div>
-		</div>-->
-		<div class="section-grow col-xs-11 col-xs-offset-1 as-seen-on">
-			<h4>As seen on:</h4>
-			<div class="col-xs-12 col-sm-2">
-				<a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img style="margin:0 auto;" src="../images/cnn.jpg" alt="CNN"></a>
-			</div>
-			<div class="col-xs-12 col-sm-3">
-				<a href="https://www.youtube.com/watch?v=VL7NAoh8cjs"><img style="margin:0 auto;" class="img-responsive" src="../images/entrepreneur.jpg" alt="Entrepreneur"></a>
-			</div>
-			<div class="col-xs-12 col-sm-3">
-				<a href="https://www.youtube.com/watch?v=U7BfBCRBCUU"><img style="margin:0 auto;" class="img-responsive" src="../images/shaw.jpg" alt="Shaw"></a>
-			</div>
-			<div class="col-xs-12 col-sm-3">
-				<a href="http://bit.ly/1f9LEsY"><img style="margin:0 auto;" width=97 height=57 class="img-responsive" src="../images/ctv.jpg" alt="CTV"></a>
-			</div>
-		</div>
-		<div id="contact" class="col-xs-11 col-xs-offset-1 contact-us">
-			<div class="row">
-				<div class="col-xs-12 col-sm-5">
-					<a href="https://www.youtube.com/channel/UCS7tvlvCU3rmRaZU_88NfBg"><img src="../images/youtube.jpg" alt="YouTube"></a>
-					<a href="https://www.facebook.com/thenewmediagroup"><img src="../images/facebook.jpg" alt="Facebook"></a>
-					<a href="https://twitter.com/new_media_group"><img src="../images/twitter.jpg" alt="Twitter"></a>
-					<a href="https://plus.google.com/+ThenewmediagroupCa/posts"><img src="../images/google.jpg" alt="Google"></a>
-					<a href="https://www.pinterest.com/newmediagroup/"><img src="../images/pinterest.jpg" alt="Pinterest"></a>
-					<h3>Contact Us</h3>
-					<div class="hr"></div>
-					<div class="contact-us-phone">
-						<h5>Phone/text</h5>
-						<div>Calgary: (403) 614-6708</div>
-						<div>Victoria: (250) 216-5039</div>
+							<p class="statText">Social in 17 - Effectively market your business on social media in just 17 minutes a day</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-5 col-sm-offset-1">
-					<?php include('../contact-form/index.php'); ?>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber">101</p>
+							<p class="statText">Web marketing 101 - Effectively market businesses online using today's cutting edge technology.</p>
+						</div>
+					</div>
+				</div>
+				<div class="statsWrap">
+					<div class="stats">
+						<div class="statDummy"></div>
+						<div class="statInfo">
+							<p class="statNumber">0</p>
+							<p class="statText">Qualms designing a custom program, just for you. </p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
+<div class="section-grow col-xs-11 col-xs-offset-1 as-seen-on">
+	<h4>As seen on:</h4>
+
+	<div class="col-xs-12 col-sm-2">
+		<a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img style="margin:0 auto;" src="../images/cnn.jpg" alt="CNN"></a>
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<a href="https://www.youtube.com/watch?v=VL7NAoh8cjs"><img style="margin:0 auto;" class="img-responsive" src="../images/entrepreneur.jpg" alt="Entrepreneur"></a>
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<a href="https://www.youtube.com/watch?v=U7BfBCRBCUU"><img style="margin:0 auto;" class="img-responsive" src="../images/shaw.jpg" alt="Shaw"></a>
+	</div>
+	<div class="col-xs-12 col-sm-3">
+		<a href="http://bit.ly/1f9LEsY"><img style="margin:0 auto;" width=97 height=57 class="img-responsive" src="../images/ctv.jpg" alt="CTV"></a>
+	</div>
+</div>
+<div id="contact" class="col-xs-11 col-xs-offset-1 contact-us">
+	<div class="row">
+		<div class="col-xs-12 col-sm-5">
+			<a href="https://www.youtube.com/channel/UCS7tvlvCU3rmRaZU_88NfBg"><img src="../images/youtube.jpg" alt="YouTube"></a>
+			<a href="https://www.facebook.com/thenewmediagroup"><img src="../images/facebook.jpg" alt="Facebook"></a>
+			<a href="https://twitter.com/new_media_group"><img src="../images/twitter.jpg" alt="Twitter"></a>
+			<a href="https://plus.google.com/+ThenewmediagroupCa/posts"><img src="../images/google.jpg" alt="Google"></a>
+			<a href="https://www.pinterest.com/newmediagroup/"><img src="../images/pinterest.jpg" alt="Pinterest"></a>
+
+			<h3>Contact Us</h3>
+
+			<div class="hr"></div>
+			<div class="contact-us-phone">
+				<h5>Phone/text</h5>
+
+				<div>Calgary: (403) 614-6708</div>
+				<div>Victoria: (250) 216-5039</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-5 col-sm-offset-1">
+			<?php include('../contact-form/index.php'); ?>
+		</div>
+	</div>
+</div>
+</div>
 </section>
 
 <!-- Footer -->
