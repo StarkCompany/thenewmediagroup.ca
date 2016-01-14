@@ -45,15 +45,15 @@ if ( ! empty( $emailSent ) ): ?>
 			<div class="alert alert-danger text-center">We're sorry there was an error sending your message. </div>
 		</div>
 	<?php endif; ?>
-	<?php if($_SERVER['REQUEST_URI'] == '/grow/'){
-		echo '<h1>Start now!</h1>';
-		echo '<h3>Invest in your future success workshops start at just $750</h3>';
+	<?php if($_SERVER['REQUEST_URI'] == '/grow/' || $_SERVER['REQUEST_URI'] == '/grow/#contact'){
+		echo '<h2 style="margin-bottom:0px;">Start now!</h2>';
+		echo '<h4 style="margin-bottom:16px;">Invest in your future success <br>Workshops start at just $497</h4>';
 	}else{
-		echo '<h3>How Can We Help?</h3>';
+		echo '<h2>How Can We Help?</h2>';
 	}?>
 
 	<div class="hr"></div>
-	<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
+	<form action="<?php echo $_SERVER['REQUEST_URI']; ?>#contact" id="contact-form" class="form-horizontal" role="form" method="post">
 		<div class="form-group">
 			<label for="name" class="col-xs-3 control-label">Name</label>
 			<div class="col-xs-9">
@@ -79,9 +79,10 @@ if ( ! empty( $emailSent ) ): ?>
 			</div>
 		</div>
 		<div class="form-group">
-			<div class="col-xs-offset-3 col-xs-9">
+			<label for="comments" class="col-xs-3 control-label">Captcha</label>
+			<div class="col-xs-9">
 				<div class="g-recaptcha" data-sitekey="6LfQCQoTAAAAAFSv1C-oExr7EFLNs1KBKTAvq6tp" style="margin-bottom:1em;"></div>
-				<button type="submit" class="btn btn-default">Submit</button>
+				<button type="submit" class="btn btn-default pull-right">Submit</button>
 			</div>
 		</div>
 	</form>

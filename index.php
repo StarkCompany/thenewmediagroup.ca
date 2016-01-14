@@ -451,17 +451,20 @@ if ($_POST["g-recaptcha-response"]) {
             <div class="col-xs-11 col-xs-offset-1 as-seen-on">
                 <h4>As seen on:</h4>
                 <div class="col-xs-12 col-sm-2">
-                    <a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img style="margin:0 auto;" src="images/cnn.jpg" alt="CNN"></a>
+                    <a href="/cnn-interview-social-proof-how-it-affects-consumer-buying-decisions/"><img style="margin:0 auto;" class="img-responsive" src="images/cnn.jpg" alt="CNN"></a>
                 </div>
-                <div class="col-xs-12 col-sm-3">
-                    <a href="https://www.youtube.com/watch?v=VL7NAoh8cjs"><img style="margin:0 auto;" class="img-responsive" src="images/entrepreneur.jpg" alt="Entrepreneur"></a>
+                <div class="col-xs-12 col-sm-2">
+                    <a href="https://www.youtube.com/watch?v=VL7NAoh8cjs"><img style="margin:17px auto;" class="img-responsive" src="images/entrepreneur.jpg" alt="Entrepreneur"></a>
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <a href="https://www.youtube.com/watch?v=U7BfBCRBCUU"><img style="margin:0 auto;" class="img-responsive" src="images/shaw.jpg" alt="Shaw"></a>
                 </div>
 	            <div class="col-xs-12 col-sm-3">
-		            <a href="http://bit.ly/1f9LEsY"><img style="margin:0 auto;" width=97 height=57 class="img-responsive" src="images/ctv.jpg" alt="CTV"></a>
+		            <a href="http://bit.ly/1f9LEsY"><img style="margin:-10px auto;" width=97 height=57 class="img-responsive" src="images/ctv.jpg" alt="CTV"></a>
 	            </div>
+                <div class="col-xs-12 col-sm-2">
+                    <img style="margin:20px auto;" width=97 height=57 class="img-responsive" src="../images/amazon.png" alt="Amazon">
+                </div>
             </div>
             <div id="contact" class="col-xs-11 col-xs-offset-1 contact-us">
                 <div class="row">
@@ -490,7 +493,7 @@ if ($_POST["g-recaptcha-response"]) {
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; The New Media Group 2015</p>
+            <p>Copyright &copy; The New Media Group 2016</p>
         </div>
     </footer>
 
@@ -505,6 +508,7 @@ if ($_POST["g-recaptcha-response"]) {
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script data-leadbox="140bd4973f72a2:122cff345346dc" data-url="https://laurelstarkinc.leadpages.co/leadbox/140bd4973f72a2%3A122cff345346dc/5714163003293696/" data-config="%7B%22type%22%3A%22time%22%2C%22settings%22%3A%7B%22seconds%22%3A5%2C%22days%22%3A45%2C%22views%22%3A0%7D%7D" type="text/javascript" src="https://laurelstarkinc.leadpages.co/leadbox-958.js"></script>
 
 </body>
 

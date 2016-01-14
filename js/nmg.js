@@ -4,8 +4,14 @@ $( document ).ready(function() {
 	$("#uw-quote").hide()
 	$("#sidney-quote").hide()
 	$("#smc-quote").hide()
+	$("#vbn-quote").hide()
+	$("#urban-mortgage-quote").hide()
+
+
+	$('body').bind('touchstart', function() {});
 
 });
+
 
 $( "#rru" ).hover( function(){
 	$("#rru-quote").fadeIn();},
@@ -23,3 +29,11 @@ $( "#social" ).hover( function(){
 		$("#smc-quote").fadeIn();},
 	function(){$("#smc-quote").fadeOut();
 	});
+$( "#vbn" ).hover( function(){
+		$("#vbn-quote").fadeIn();},
+	function(){$("#vbn-quote").fadeOut();
+});
+$( "#urban-mortgage" ).hover( function(){
+		$("#urban-mortgage-quote").fadeIn();},
+	function(){$("#urban-mortgage-quote").fadeOut();
+});
