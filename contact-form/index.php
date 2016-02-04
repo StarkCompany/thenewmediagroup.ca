@@ -44,14 +44,9 @@ if ( ! empty( $emailSent ) ): ?>
 		<div class="col-xs-12" style="padding:0 !important;">
 			<div class="alert alert-danger text-center">We're sorry there was an error sending your message. </div>
 		</div>
-	<?php endif; ?>
-	<?php if($_SERVER['REQUEST_URI'] == '/grow/' || $_SERVER['REQUEST_URI'] == '/grow/#contact'){
-		echo '<h2 style="margin-bottom:0px;">Start now!</h2>';
-		echo '<h4 style="margin-bottom:16px;">Invest in your future success <br>Workshops start at just $497</h4>';
-	}else{
-		echo '<h2>How Can We Help?</h2>';
-	}?>
+	<?php endif;?>
 
+	<h3>How Can We Help?</h3>
 	<div class="hr"></div>
 	<form action="<?php echo $_SERVER['REQUEST_URI']; ?>#contact" id="contact-form" class="form-horizontal" role="form" method="post">
 		<div class="form-group">
